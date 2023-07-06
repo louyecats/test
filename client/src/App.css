@@ -38,3 +38,57 @@
     transform: rotate(360deg);
   }
 }
+/* ---- Blue llama ---- */
+
+.Blue_llama_css {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius:30%;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fade-in 1s forwards;
+}
+
+.fade-out {
+  animation: fade-out 1s forwards;
+}
+
+/* ---- Fade Button ---- */
+.fade-button {
+  background-color: #fb61d4;
+  color: white;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin-bottom: 2%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fade-button:hover {
+  background-color: #45c8dc;
+}
+
+.fade-button:active {
+  background-color: #2ca9bf;
+}
